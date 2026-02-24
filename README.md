@@ -346,3 +346,22 @@ The file is portable, version-controllable, and human-inspectable (via engram CL
 ## License
 
 MIT -- Terronex 2026
+
+---
+
+## Trace vs Trace Lite
+
+This package (`@terronex/engram-trace`) is designed for **autonomous AI agents** that run continuously and manage their own memory lifecycle. It includes background consolidation timers, auto-remember heuristics, and built-in embedding/LLM providers.
+
+For applications that manage memory explicitly (interactive tools, teaching systems, CLIs), see [`@terronex/engram-trace-lite`](https://github.com/Terronex-dev/engram-trace-lite) -- a stateless, pure-function consolidation library with zero background processes.
+
+| | Trace (this package) | Trace Lite |
+|---|---|---|
+| Architecture | Stateful class with timers | Stateless pure functions |
+| Agent loop | Built-in auto-remember, auto-consolidate | None -- caller triggers consolidation |
+| LLM | Optional (summarization + auto-importance) | Optional (summarization only) |
+| Embedding | Built-in provider support | Bring your own |
+| Background work | Interval-based consolidation | None |
+| Recall | Built-in with tier filtering | Not included (use @terronex/engram) |
+| Size | ~1,700 lines | ~300 lines |
+| Use case | Rex, autonomous agents, daemons | Allo, teaching systems, custom apps |
