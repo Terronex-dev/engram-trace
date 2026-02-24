@@ -513,7 +513,8 @@ export class EngramTrace {
 
       const nodes = this.memories.map(m => {
         const node = engram.createNode(m.content);
-        node.embedding = new Float32Array(m.embedding);
+        // Store embedding as number[] to avoid msgpackr Float32Array corruption
+        node.embedding = Array.from(m.embedding) as any;
         node.id = m.id;
         node.temporal = {
           created: new Date(m.createdAt).getTime(),
