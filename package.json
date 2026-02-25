@@ -31,7 +31,11 @@
     "neural-memory",
     "autonomous"
   ],
-  "author": "Terronex <terronex.dev@gmail.com>",
+  "author": {
+    "name": "Terronex",
+    "email": "contact@terronex.dev",
+    "url": "https://terronex.dev"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -56,5 +60,6 @@
     "LICENSE",
     "ROADMAP.md",
     "CHANGELOG.md"
-  ]
+  ],
+  "homepage": "https://github.com/Terronex-dev/engram-trace#readme"
 }

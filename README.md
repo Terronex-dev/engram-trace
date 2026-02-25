@@ -1,5 +1,9 @@
 # Engram Trace
 
+[![npm version](https://img.shields.io/npm/v/@terronex/engram-trace.svg)](https://www.npmjs.com/package/@terronex/engram-trace)
+[![Powered by Engram](https://img.shields.io/badge/Powered%20by-Engram-ef4444)](https://github.com/Terronex-dev/engram)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Autonomous memory intelligence for AI agents.
 
 Engram Trace gives any AI agent persistent, self-curating memory in a single `.engram` file. It automatically decides what to remember from conversations, consolidates old memories, removes duplicates, and provides semantic recall -- all without manual memory management.
