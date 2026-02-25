@@ -15,3 +15,8 @@ Email **contact@terronex.dev** instead of opening a public issue. We will respon
 | Version | Supported |
 |---------|-----------|
 | 0.1.x   | Yes       |
+
+
+## Important Notice
+
+The encryption and key derivation implementations in this software have not been independently audited by a third-party security firm. While we follow established cryptographic standards (AES-256-GCM, argon2id, PBKDF2), users handling sensitive data should perform their own security assessment before relying on these protections in production.

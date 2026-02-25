@@ -369,3 +369,10 @@ For applications that manage memory explicitly (interactive tools, teaching syst
 | Recall | Built-in with tier filtering | Not included (use @terronex/engram) |
 | Size | ~1,700 lines | ~300 lines |
 | Use case | Rex, autonomous agents, daemons | Allo, teaching systems, custom apps |
+
+
+## Disclaimer
+
+This software is provided as-is under the MIT license. It is under active development and has not undergone a third-party security audit. The encryption implementation (AES-256-GCM with argon2id/PBKDF2) has not been independently verified.
+
+Do not use this software as the sole protection for sensitive data without your own due diligence. The authors and Terronex are not liable for data loss, security breaches, or any damages arising from the use of this software. See LICENSE for full terms.
