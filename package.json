@@ -1,6 +1,6 @@
 {
   "name": "@terronex/engram-trace",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Autonomous memory intelligence for AI agents. Auto-remember, auto-curate, semantic recall — powered by the .engram format.",
   "type": "module",
   "main": "dist/index.js",
