@@ -8,7 +8,7 @@ Autonomous memory intelligence for AI agents.
 
 Engram Trace gives any AI agent persistent, self-curating memory in a single `.engram` file. It automatically decides what to remember from conversations, consolidates old memories, removes duplicates, and provides semantic recall -- all without manual memory management.
 
-Built on the [Engram](https://github.com/Terronex-dev/engram) neural memory format. Now with **Engram V2** support for typed links and graph traversal.
+Built on the [Engram](https://github.com/Terronex-dev/engram) neural memory format. Now with **Engram V2.1** support for typed links, graph traversal, and spatial queries.
 
 ## The Problem
 
